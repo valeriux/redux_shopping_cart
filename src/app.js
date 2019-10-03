@@ -1,9 +1,11 @@
-
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter as Router} from 'react-router-dom'
 import 'bulma'
 import Home from './components/Home'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './style.scss'
+
 
 
 class App extends React.Component {
